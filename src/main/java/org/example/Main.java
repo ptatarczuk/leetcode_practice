@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.ArrayString.MergeSortedArray;
 import org.example.ArrayString.RomanToInteger;
+import org.example.TwoPointers.IsSubsequence;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
@@ -23,9 +24,13 @@ public class Main {
 //        }
 //        System.out.println(mergedList);
 
-        String s = "XXXIV";
-        RomanToInteger romanToInteger = new RomanToInteger();
+//        String s = "XXXIV";
+//        RomanToInteger romanToInteger = new RomanToInteger();
+//
+//        System.out.println(romanToInteger.romanToInt(s));
 
-        System.out.println(romanToInteger.romanToInt(s));
+        IsSubsequence sub = new IsSubsequence();
+        System.out.println(sub.isSubsequence("ab", "aoboo"));
+
     }
 }
