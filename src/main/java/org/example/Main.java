@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.ArrayString.MergeSortedArray;
 import org.example.ArrayString.RomanToInteger;
+import org.example.Hashmap.RansomNote;
 import org.example.TwoPointers.IsSubsequence;
 
 import java.sql.SQLOutput;
@@ -29,8 +30,11 @@ public class Main {
 //
 //        System.out.println(romanToInteger.romanToInt(s));
 
-        IsSubsequence sub = new IsSubsequence();
-        System.out.println(sub.isSubsequence("ab", "aoboo"));
+//        IsSubsequence sub = new IsSubsequence();
+//        System.out.println(sub.isSubsequence("ab", "aoboo"));
+
+        RansomNote note = new RansomNote();
+        System.out.println(note.canConstruct("aac", "aab"));
 
     }
 }
