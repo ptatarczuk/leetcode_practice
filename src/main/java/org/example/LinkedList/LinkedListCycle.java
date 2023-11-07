@@ -2,14 +2,14 @@ package org.example.LinkedList;
 
 import java.util.HashSet;
 
-class ListNode {
+/*class ListNode {
     int val;
     ListNode next;
     ListNode(int x) {
         val = x;
         next = null;
     }
-}
+}*/
 
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
