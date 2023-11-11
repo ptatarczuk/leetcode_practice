@@ -1,5 +1,6 @@
 package org.example.LinkedList;
 
+
 public class ListNode {
     int val;
     ListNode next;
