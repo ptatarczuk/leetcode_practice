@@ -1,4 +1,4 @@
-package org.example.Backtracking;
+package org.example.BinarySearch;
 
 public class SearchIsRotatedSortedArray {
     public int search(int[] nums, int target) {
