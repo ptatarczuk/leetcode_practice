@@ -14,8 +14,8 @@ public class MedianOfTwoSortedArrays {
         for (int j : nums1) {
             merged[k++] = j;
         }
-        for (int i = 0; i < m; i++) {
-            merged[k++] = nums2[i];
+        for (int j : nums2) {
+            merged[k++] = j;
         }
 
         // Sort the merged array.
