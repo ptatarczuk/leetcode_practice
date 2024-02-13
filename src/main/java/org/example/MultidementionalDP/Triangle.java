@@ -11,5 +11,4 @@ public class Triangle {
             }
         return T.get(0).get(0);
     }
-
 }
