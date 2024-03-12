@@ -1,5 +1,7 @@
 package org.example.ArrayString;
 
+import java.util.Arrays;
+
 public class Candy {
     public int candy(int[] ratings) {
         int n = ratings.length;
