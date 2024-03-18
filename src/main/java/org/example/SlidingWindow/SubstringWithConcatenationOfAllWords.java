@@ -1,10 +1,11 @@
 package org.example.SlidingWindow;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SubstringWithyConcatenationOfAllWords {
+public class SubstringWithConcatenationOfAllWords {
     public List<Integer> findSubstring(String s, String[] words) {
         final Map<String, Integer> counts = new HashMap<>();
         for (final String word : words) {
