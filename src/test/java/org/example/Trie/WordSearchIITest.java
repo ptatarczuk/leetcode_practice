@@ -10,7 +10,6 @@ class WordSearchIITest {
         WordSearchIITest test = new WordSearchIITest();
         test.testExample1();
         test.testExample2();
-        // Add more test cases as needed
     }
 
     public void testExample1() {
