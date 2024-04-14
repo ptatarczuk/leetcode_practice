@@ -3,7 +3,7 @@ package org.example.Heap;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class c {
+public class FindMedianFromDataStream {
     private PriorityQueue<Integer> small = new PriorityQueue<>(Collections.reverseOrder());
     private PriorityQueue<Integer> large = new PriorityQueue<>();
     private boolean even = true;
